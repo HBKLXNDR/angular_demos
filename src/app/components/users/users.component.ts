@@ -21,5 +21,4 @@ export class UsersComponent implements OnInit {
       .subscribe(value => this.users = value);
   }
 
-
 }
