@@ -1,5 +1,7 @@
-<p> {{user.name}} - {{user.id}}
+<p> {{user.name}} - {{user.id}} - {{user.company.name}}
   <!--  urls based on father-->
   <!--  <a routerLink="user-details/{{user.id}}">details</a>-->
-  <a [routerLink]="['user-details',user.id]">details</a>
+<!--  <a [routerLink]="['user-details',user.id]" [state]="{data: user}">details</a>-->
+  <button (click)="navigateMe(user)">details</button>
 </p>
+
