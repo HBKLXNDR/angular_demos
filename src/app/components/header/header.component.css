@@ -1,0 +1,20 @@
+
+.container {
+  height: 50px;
+  background-color: blue;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 20%;
+}
+
+a {
+  text-decoration: none;
+  color: snow;
+  font-size: 25px;
+
+}
+
+.active a{
+  color: red;
+}
