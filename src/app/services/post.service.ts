@@ -2,7 +2,6 @@ import {Injectable} from '@angular/core';
 import {Observable} from "rxjs";
 import {HttpClient} from "@angular/common/http";
 
-
 import {urls} from "../constants/urls";
 import {IPost} from "../interfaces";
 
