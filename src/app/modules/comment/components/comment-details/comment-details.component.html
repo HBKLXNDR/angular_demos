@@ -1,1 +1,6 @@
-<p>comment-details works!</p>
+<div *ngIf="comment">
+  <div>id:{{comment.id}}</div>
+  <div>name:{{comment.name}}</div>
+  <div>body:{{comment.body}}</div>
+  <div>postId:{{comment.postId}}</div>
+</div>
